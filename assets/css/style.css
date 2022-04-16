@@ -1,6 +1,11 @@
 body{
     font-family: 'Cabin', sans-serif;
+    font-weight: 400;
 }
+.weight-bold{
+    font-weight: 700;
+}
+
 
 .bg-calipso{
     background-color: #0AA2C0;
@@ -11,4 +16,8 @@ body{
 
 .logo{
     height: 2rem;
+}
+
+.height-pic{
+    height: 40%;
 }

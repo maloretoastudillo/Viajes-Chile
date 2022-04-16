@@ -51,7 +51,7 @@
         </div>
     </nav>
 
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <section id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="Fotografía Llamas en el desierto">
@@ -71,11 +71,11 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </button>
-    </div>
+    </section>
 
-    <main class="py-3 bg-negro text-white">
+    <main class="d-none d-md-block py-3 bg-negro text-white">
         <section class="container">
-            <h2 class="py-5 text-center">¿QUIÉNES SOMOS?</h2>
+            <h2 class="py-5 text-center weight-bold">¿QUIÉNES SOMOS?</h2>
             <div class="row py-4">
                 <div class="col">
                     <div class="bg-calipso text-center  h3"><i class="fas fa-plane"></i></div>
@@ -112,39 +112,48 @@
     </main>
 
     <section class="bg-negro text-white">
+        <h2 class="py-5 text-center weight-bold">DESTACADOS</h2>
         <div class="container">
-            <h2 class="py-5 text-center">DESTACADOS</h2>
-            <div class="card-deck">
-                <div class="card bg-calipso" style="width: 18rem;">
-                    <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi doloribus
-                            eligendi cupiditate molestiae iusto repudiandae aliquid nam aliquam, quam.</p>
+            <div class="row row-cols-2 row-cols-lg-4">
+                <div class="col my-3">
+                    <div class="card bg-calipso border-white p-0 h-100">
+                        <img src="assets/img/card1.jpg" class="card-img-top height-pic" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. sed do
+                                eiusmod tempor incididunt ul labore et dolore magna aliqua.
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="card bg-calipso" style="width: 18rem;">
-                    <img src="assets/img/card2.jpg" class="card-img-top w-100" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi doloribus
-                            eligendi cupiditate molestiae iusto repudiandae aliquid nam aliquam, quam.</p>
+                <div class="col my-3">
+                    <div class="card bg-calipso border-white p-0 h-100">
+                        <img src="assets/img/card2.jpg" class="card-img-top height-pic" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Consectetur adipisincing elit</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. sed do
+                                eiusmod tempor incididunt ul labore et dolore magna aliqua.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="card bg-calipso" style="width: 18rem;">
-                    <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi doloribus
-                            eligendi cupiditate molestiae iusto repudiandae aliquid nam aliquam, quam.</p>
+                <div class="col my-3">
+                    <div class="card bg-calipso border-white p-0 h-100">
+                        <img src="assets/img/card3.jpg" class="card-img-top height-pic" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Sed do eiusmod tempor incididunt ul labore</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. sed do
+                                eiusmod tempor incididunt ul labore et dolore magna aliqua.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="card bg-calipso" style="width: 18rem;">
-                    <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi doloribus
-                            eligendi cupiditate molestiae iusto repudiandae aliquid nam aliquam, quam.</p>
+                <div class="col my-3">
+                    <div class="card bg-calipso border-white p-0 h-100">
+                        <img src="assets/img/card4.jpg" class="card-img-top height-pic" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Ut enim ad minim veniam</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. sed do
+                                eiusmod tempor incididunt ul labore et dolore magna aliqua.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -153,16 +162,25 @@
 
     <section class="bg-negro text-white">
         <div class="container">
-            <h2 class="py-5 text-center">CONTACTO</h2>
-
-
-
-
-
-
+            <h2 class="py-5 text-center weight-bold">CONTACTO</h2>
+            <form class="pb-4">
+                <div class="form-group">
+                    <label for="FormControlNombre">Nombre</label>
+                    <input type="name" class="form-control" id="Contacto-nombre">
+                    </input>
+                </div>
+                <div class="form-group">
+                    <label for="FormControlmail">Email</label>
+                    <input type="email" class="form-control" id="Contacto-email">
+                </div>
+                <div class="form-group">
+                    <label for="FormControlMensaje">Mensaje</label>
+                    <textarea class="form-control" id="contacto-mensaje" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn bg-calipso text-white">Enviar</Enviar>
+            </form>
         </div>
     </section>
-
 
     <footer class="bg-calipso text-white">
         <div class="container py-3 align-items-center ">
