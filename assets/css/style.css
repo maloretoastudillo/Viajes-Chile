@@ -1,0 +1,14 @@
+body{
+    font-family: 'Cabin', sans-serif;
+}
+
+.bg-calipso{
+    background-color: #0AA2C0;
+}
+.bg-negro{
+    background-color: #000000;
+}
+
+.logo{
+    height: 2rem;
+}
