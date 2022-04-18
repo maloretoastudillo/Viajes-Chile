@@ -1,3 +1,9 @@
+/* Desactiva smooth-scroll que trae Bootstrap por defecto  */
+html{
+    scroll-behavior: auto !important;
+}
+
+
 body{
     font-family: 'Cabin', sans-serif;
     font-weight: 400;
