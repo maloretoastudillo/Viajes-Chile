@@ -1,29 +1,28 @@
-/* Desactiva smooth-scroll que trae Bootstrap por defecto  */
-html{
-    scroll-behavior: auto !important;
+html {
+    scroll-behavior: smooth !important;
 }
 
-
-body{
+body {
     font-family: 'Cabin', sans-serif;
     font-weight: 400;
 }
-.weight-bold{
+
+.weight-bold {
     font-weight: 700;
 }
 
-
-.bg-calipso{
+.bg-calipso {
     background-color: #0AA2C0;
 }
-.bg-negro{
+
+.bg-negro {
     background-color: #000000;
 }
 
-.logo{
+.logo {
     height: 2rem;
 }
 
-.height-pic{
+.height-pic {
     height: 40%;
 }

@@ -1,0 +1,20 @@
+1. Recursos externos incorporados por CDN:
+
+- Google Fonts: Cabin: Regular y Bold
+- FontAwesome v5.6.3
+- Bootstrap v4.6.1
+- JQuery v3.5.1
+
+2. Elementos de Bootstrap utilizados:
+
+- Línea 25, Navbar: barra de navegación fija en la parte superior de la pantalla con logo y enlaces a diferentes partes del documento.
+- Línea 55, Carousel Slide Only: carrusel con fotografías.
+- Línea 118, Cards: tarjetas con imágenes y descripción que se agrupan y muestran de acuerdo al tamaño de la pantalla (4 tarjetas para pantallas lg y más grandes, 2 tarjetas en línea para pantallas md y una tarjeta para pantallas más pequeñas)
+
+3. Elementos JavaScript - JQuery, en archivo js/script.js 
+
+- Smooth scroll en cada enlace de la barra de navegación para dirigirse a las diferentes secciones del sitio que indica.
+- Alert para informar al usuario que su mensaje ha sido recepcionado.
+
+
+
